@@ -5,7 +5,7 @@
   "scripts": {
     "start": "vite",
     "build": "tsc && vite build",
-    "deploy": "npm run build --prefix ./my-cdk-app",
+    "deploy": "npm run deploy --prefix ./my-cdk-app",
     "preview": "npm run build && vite preview",
     "test": "vitest",
     "test:ui": "vitest --ui",
